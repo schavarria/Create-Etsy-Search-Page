@@ -3,6 +3,9 @@ html {box-sizing:border-box;}
 li{
 	list-style: none;
 }
+ul{
+	padding: 0;
+}
 #container{
 	width: 1500px;
 	margin:auto;
@@ -25,7 +28,7 @@ li{
 }
 
 ::placeholder{
-	color: rgb(20,20,20);
+	color: rgb(106,106,106);
 	
 }
  .topInput{
@@ -55,6 +58,10 @@ li{
  	font-weight: bold;
  	border-left: none;
  	outline: none;
+ }
+ .searchButton:hover{
+ 	cursor: pointer;
+ 	background-color: rgba(52,52,52);
  }
 
 .rightContainer{
@@ -88,6 +95,7 @@ li{
 .signIn:hover{
 	color: white;
 	background-color: black;
+	cursor: pointer;
 }
 
 .sell, .reg{
@@ -99,13 +107,16 @@ li{
 
 .sell:hover{
 	text-decoration: underline;
+	cursor: pointer;
 }
 
 .reg:hover{
 	text-decoration: underline;
+	cursor: pointer;
 }
 
 .icons{
+	margin-left: 15px;
 	text-align: center;
 	font-size: 14px;
 	width: 150px;
@@ -144,6 +155,7 @@ li{
 
 .dis:hover, .cart:hover{
 	color: rgb(79,79,79);
+	cursor: pointer;
 }
 
 .secondContainer{
@@ -158,13 +170,15 @@ li{
 	justify-content: space-between;
 
 }
-.nav > li{
-	margin-left: -38px;
-}
 
 
 .nav > li:hover{
 	border-bottom: 3px solid rgb(242,77,1);
+
+}
+
+.nav:hover{
+	cursor: pointer;
 }
 
 .thirdContainer{
@@ -188,6 +202,304 @@ li{
 	background: rgb(248,208,142);
 	border-radius: 3px;
 }
+
+.thirdContainer:hover{
+	cursor: pointer;
+}
+
+.fourthContainer{
+	padding: 15px;
+	margin-top: 30px;
+	width: 270px;
+	border: 1px solid rgb(221,223,218)
+}
+
+.special{
+	border: none;
+	border-radius: 3px; 
+	background-color: rgba(250,231,210);
+	padding-top: 0;
+}
+
+#onSale{
+	font-size: 14px;
+}
+
+#onSale:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.allCat{
+	margin-bottom: 0;
+}
+
+.cates{
+	margin: 10px;
+}
+
+.hl, .ac, .wed, .clo{
+	padding: 3px;
+	font-size: 14px; 
+}
+
+.show{
+	margin-bottom: 15px;
+	text-decoration: underline;
+}
+
+
+.allCat:hover, .hl:hover, .ac:hover, .wed:hover, .clo:hover, .show:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+.categories{
+	border-bottom: 1px solid rgb(221,223,218);
+}
+
+.shipping{
+	padding-bottom: 15px;
+	border-bottom: 1px solid rgb(221,223,218);	
+}
+.ship{
+	margin-bottom: 5px;
+}
+#freeship, #oneDay, #threeDay{
+	font-size: 14px;
+}
+
+#freeship:hover, #oneDay:hover, #threeDay:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.material{
+	padding-bottom: 1px;
+	border-bottom: 1px solid rgb(221,223,218);	
+}
+
+.materialType{
+	margin-bottom: 5px;
+}
+
+#ceramic, #cork, #fabric, #glass, #metal{
+	font-size: 14px;
+}
+
+#ceramic:hover, #cork:hover, #fabric:hover, #glass:hover, #metal:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.color{
+	padding-bottom: 1px;
+	border-bottom: 1px solid rgb(221,223,218);	
+}
+
+.clr{
+	margin-bottom: 5px;
+}
+
+#beige, #black, #blue, #bronze, #brown{
+	font-size: 14px;
+}
+
+#beige:hover, #black:hover, #blue:hover, #bronze:hover, #brown:hover{
+	text-decoration: underline;
+	cursor: pointer;	
+}
+
+.personal{
+	padding-bottom: 15px;
+	border-bottom: 1px solid rgb(221,223,218);	
+}
+
+.prl{
+	margin-bottom: 5px;
+}
+
+#yes, #no{
+	font-size: 14px;
+}
+
+#yes:hover, #no:hover{
+	text-decoration: underline;
+	cursor: pointer;	
+}	
+
+.occasion{
+	padding-bottom: 1px;
+	border-bottom: 1px solid rgb(221,223,218);	
+}
+
+.occ{
+	margin-bottom: 5px;
+}
+
+#anniversary, #baby, #bach, #party, #bday{
+	font-size: 14px;
+}
+
+#anniversary:hover, #baby:hover, #bach:hover, #party:hover, #bday:hover{
+	text-decoration: underline;
+	cursor: pointer;		
+}
+
+
+.holiday{
+	padding-bottom: 1px;
+	border-bottom: 1px solid rgb(221,223,218);
+}
+
+
+.hld{ 
+	margin-bottom: 5px;
+}
+
+#xmas, #cinco, #easter, #dad, #hal{
+	font-size: 14px;
+}
+
+#xmas:hover, #cinco:hover, #easter:hover, #dad:hover, #hal:hover{
+	text-decoration: underline;
+	cursor: pointer;		
+}
+
+.location{
+	padding-bottom: 10px;
+	border-bottom: 1px solid rgb(221,223,218);
+}
+
+.loc{
+	margin-bottom: 5px;
+}
+
+.zip {
+	height: 25px;
+	outline: none;
+}
+.zip:focus{
+	height: 25px;
+	outline: 1px solid black;
+}
+
+.zipButton{
+	background-color: transparent;
+	position: relative;
+	top:2px;
+}
+
+.zipButton:hover{
+	cursor: pointer;
+}
+
+.locbar{
+	height: 32px;
+	padding-left: 20px;
+}
+
+#any, #us, #custom{
+	font-size: 14px;
+}
+
+#any:hover,  #us:hover, #custom:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.item{
+	padding-bottom: 10px;
+	border-bottom: 1px solid rgb(221,223,218);
+}
+
+.type{
+	margin-bottom: 5px;
+}
+
+#all, #hand, #vintage{
+	font-size: 14px;
+}
+
+#all:hover, #hand:hover, #vintage:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+.price{
+	padding-bottom: 10px;
+	border-bottom: 1px solid rgb(221,223,218);
+}
+
+
+.mula{
+	margin-bottom: 5px;
+}
+
+#anyprice, #under, #fifty, #hunnid, #over, #cosprice{
+	font-size: 14px;
+}
+
+#anyprice:hover, #under:hover, #fifty:hover, #hunnid:hover, #over:hover, #cosprice:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.to{
+	font-size: 12px;
+}
+
+.ltoh{
+	margin-top: 2px;
+	padding-left: 20px;
+	width: 170px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.low, .high{
+	height:30px;
+	width:50px;
+	outline: none;
+}
+.low:focus, .high:focus{
+outline: 1px solid black;
+}
+
+.monButton{
+	height: 30px;
+	background-color: transparent;
+	position: relative;
+	outline: none;	
+}
+.monButton:hover{
+	cursor: pointer;
+}
+
+.ordering{
+	padding-bottom: 15px;
+	border-bottom: 1px solid rgb(221,223,218);	
+}
+
+.options{
+	margin-bottom: 5px;
+}
+
+#ecard, #giftw{
+	font-size: 14px;
+}
+
+#ecard:hover, #giftw:hover{
+	text-decoration: underline;
+	cursor: pointer;	
+}	
+
+.country{
+	width: 100%;
+	height: 25px;
+}
+
 
 
 
