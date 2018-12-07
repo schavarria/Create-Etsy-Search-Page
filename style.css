@@ -167,8 +167,27 @@ li{
 	border-bottom: 3px solid rgb(242,77,1);
 }
 
+.thirdContainer{
+	display: flex; 	
+}
 
+.wd, .wg, .wb, .ws, .wsh, .wy, .sc, .wy, .bo, .be {
+	margin-top:20px;
+	margin-right: 10px;
+	padding: 8px;
+	height: 35px;
+	background: rgb(245,174,111);
+	border-radius: 3px;
+}
 
+.bo, .be{
+	margin-top:20px;
+	margin-right: 10px;
+	padding: 8px;
+	height: 35px;
+	background: rgb(248,208,142);
+	border-radius: 3px;
+}
 
 
 
