@@ -8,19 +8,17 @@ items.results.forEach(function(item){
 
 <div class="dataCon">
 
-	<img src="${unescape(item.Images[0].url_fullxfull)}""/>
+	<img class="image" src="${unescape(item.Images[0].url_fullxfull)}"/>
 
 	<p class="title">${item.title}</p>
 
-	<p class="madeBy"> ${item.creation_tsz} </p>
+	<p class="madeBy"> ${item.Shop.shop_name} </p>
 
-	<p class="price"><strong>'$' + '${item.price}' </strong></p>
+	<p class="price"><strong> $${item.price} </strong></p>
 
 </div>
 
 	`
 })
 
-
-
-.main.innerHTML = htmlStr
+main.innerHTML = htmlStr
