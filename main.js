@@ -5,7 +5,7 @@ var htmlStr =""
 items.results.forEach(function(item){
 
 	htmlStr += `
-
+<a class="dataCon" href="${item.url}">
 <div class="dataCon">
 
 	<img class="image" src="${unescape(item.Images[0].url_fullxfull)}"/>
@@ -14,10 +14,10 @@ items.results.forEach(function(item){
 
 	<p class="madeBy"> ${item.Shop.shop_name} </p>
 
-	<p class="price"><strong> $${item.price} </strong></p>
+	<p class="imPrice"><strong> $${item.price} </strong></p>
 
 </div>
-
+</a>
 	`
 })
 

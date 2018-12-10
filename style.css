@@ -502,39 +502,147 @@ outline: 1px solid black;
 
 .bodyCon{
 	display: flex;
+	border-bottom: 1px solid rgb(221,223,218)
 }
 
 .jsContainer{
+	padding: 15px;
 	width: 1230px;
 	display:flex;
 	flex-wrap: wrap;
 }
 
 .dataCon{
-	padding: 15px;
-	margin-top: 30px;
-	margin-left: 60px;
+	margin-top: 15px;
+	margin-left: 15px;
+	text-decoration: none;
 }
 
 .image {
 	width: 250px;
 	height: 250px;
 }
+.image:after{
+	background-image: url(./assets/heart.png);
+	
+}
+.image:hover{
+	display:block;
+	cursor: pointer;
+	border: 2px ridge grey;  
+}
 
 .title{
-  width: 250px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+	color: black;
+	margin: 5px;
+  	width: 250px;
+  	white-space: nowrap;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+  
+}
+
+.madeBy{
+	margin: 5px;
+	color: rgb(89,89,89);
+	font-size: 12px;
+
+
+}
+
+.imPrice{
+	margin: 5px;
+	color:black;
+}
+
+.sixthContainer{
+	padding-top: 20px;
+	background-color: rgb(250,249,245);
+	text-align: center;
+
+}
+
+.subCon{
+	margin-bottom: 20px;
+}
+ .subButton{
+ 	margin-left: -4px;
+    padding-bottom: 1px;
+ 	margin-top: 20px;
+ 	width: 65px;
+ 	height: 30px;
+ 	border:1px solid black; 
+ 	border-radius:0 5px 5px 0;
+ 	background-color: black;
+ 	color: white;
+ 	font-weight: bold;
+ 	border-left: none;
+ 	outline: none;
+ }
+ .subButton:hover{
+ 	cursor: pointer;
+ 	background-color: rgba(52,52,52);
+ }
+.footer{
+	margin-bottom: 0;
+}
+
+.bFooter{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+	border-bottom: 1px solid rgb(221,223,218)
 }
 
 
+.fab{
+	margin-right: 5px;
+}
 
+.footerLi{
+	margin: 10px;
+}
 
+.footerLi:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
 
+.lastCon{
+	display: flex;
+	background-color: rgb(250,249,245);
+}
 
+.leftEtsy{
+	display: flex;
+	margin-right: 900px;
+}
 
+.easy{
+	padding-top: 30px;
+}
 
+.usCon{
+	margin-top: 40px;
+	width: 275px;
+	height: 45px;
+	display: flex;
+	border: 1px solid rgb(221,223,218);
+}
 
+.us, .english, .usd{
+	height: 18px;
+	padding-left: 5px;
+	padding-right: 10px;
+	margin-bottom: 0;
+}
+
+.english, .usd{
+	border-left: 1px solid rgb(221,223,218)
+}
+
+.fas{
+	margin-right: 5px;
+}
 
 
